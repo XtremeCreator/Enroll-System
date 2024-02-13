@@ -141,7 +141,7 @@ include '../config/dbcon.php';
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#profilepicModal">
+              <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#logOut">
                 <i class="nav-icon fas fa-sign-out-alt"></i>
                 <p>
                   Log Out
@@ -163,7 +163,7 @@ include '../config/dbcon.php';
     <div class="content-wrapper">
 
       <!--MODAL FOR LOGOUT-->
-      <div class="modal fade" id="profilepicModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="logOut" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
